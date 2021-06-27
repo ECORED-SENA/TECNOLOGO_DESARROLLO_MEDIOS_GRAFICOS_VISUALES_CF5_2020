@@ -1,0 +1,131 @@
+.contenedor-puntos
+  height: 20px
+  margin: auto
+  width: 120px
+  justify-content: space-between
+  display: flex
+  .puntos
+    width: 15px
+    display: inline-block
+    animation-name: puntos
+    animation-duration: 0.8s
+    animation-timing-function: ease
+    animation-iteration-count: infinite
+
+@keyframes puntos 
+  0% 
+    width: 15px
+  50% 
+    width: 18px
+  100% 
+    width: 15px
+
+.contenedor-flecha
+    &:last-child
+      .contenedor-flecha__interno
+        &:last-child
+          .color-card
+              &::before
+                display: none
+.color-card
+  transition: .3s ease-in-out 0s
+  height: 100%
+  position: relative
+  .small-text
+    font-size: 12.5px !important
+  .card-title
+    position: relative
+    text-align: end
+    font-size: 30px
+    &::after
+      position: absolute
+      content: ""
+      bottom: 0
+      right: 0
+      background-color: #12263F
+      width: 30px
+      height: 6px
+  &::before
+    font-family: "Font Awesome 5 Free"
+    font-weight: 900
+    content: "\f0da"
+    position: absolute
+    font-size: 150px
+    top: 0
+    right: 0
+    transform: translateX(85%) translateY(0%)
+  &:hover
+    cursor: pointer;
+    transform: scale(1.1)
+    h2
+      margin-right: 0px
+  @media (max-width: $bp-max-sm)
+    &:last-child
+      &::before 
+        display: none
+    &::before 
+      display: none
+.cuadro-color-uno
+  background-color: $color-primario
+  &::before
+    color: $color-primario
+.cuadro-color-dos
+  background-color: $color-secundario
+  &::before
+    color: $color-secundario
+.cuadro-color-tres
+  background-color: $color-acento-contenido
+  &::before
+    color: $color-acento-contenido
+.cuadro-color-cuatro
+  background-color: $color-acento-botones
+  &::before
+    color: $color-acento-botones
+.color_contenido--claro
+  background-color: lighten($color-acento-contenido, 45% ) 
+.color_botones--claro
+  background-color: lighten($color-acento-botones, 45% ) 
+.color_secundario--claro
+  background-color: lighten($color-secundario, 30% ) 
+  height: 100%
+hr
+  opacity: 60%
+.tarjeta--linea__texto
+  p
+    font-size: 14px !important
+.bloque-texto-a.color-primario
+  background-color: #E8E8E8 !important
+.contenedor-imagenes
+  border-radius: 10px
+  flex-wrap: wrap 
+  .contenedor-imagenes__imagen
+    img 
+      width: 119px
+.lista-ul--color2
+  i:first-of-type
+    color: $color-acento-botones 
+.efecto__hover
+  transition: 1s 
+  &:hover 
+    transform: scale(1.1)
+.bloque__bf
+  position: relative
+  &::before    
+    content: ""
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+    background-color: $color-acento-contenido
+.bloque-texto-b.color-acento-contenido
+  &::before
+    background-color: lighten($color-acento-contenido, 45% ) 
+.tarjeta-iconos--azul  
+  border-radius: 20px
+  background-color: $color-acento-botones
+
+.contenedor-imagen--salida
+  background-color: lighten($color-secundario, 25% ) 
+  

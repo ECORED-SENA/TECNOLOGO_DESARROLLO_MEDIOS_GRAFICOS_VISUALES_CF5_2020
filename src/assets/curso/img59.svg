@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119" height="119" viewBox="0 0 119 119">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_5867" data-name="Rectángulo 5867" width="119" height="119" transform="translate(334 5210)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_20" data-name="Enmascarar grupo 20" transform="translate(-334 -5210)" clip-path="url(#clip-path)">
+    <g id="carton" transform="translate(334 5210)">
+      <path id="Trazado_104517" data-name="Trazado 104517" d="M35.828,0h66.4V119h-66.4Z" fill="#8a6645"/>
+      <path id="Trazado_104518" data-name="Trazado 104518" d="M93.276,119H119V10l-2.324-4.864,2.324-5V0H93.276V.113l2.324,5.7L93.276,9.974Z" fill="#b08763"/>
+      <path id="Trazado_104519" data-name="Trazado 104519" d="M93.276.113V9.974l12.873,12.873L119,10V.136L106.149,12.986Z" fill="#73553a"/>
+      <g id="Grupo_55148" data-name="Grupo 55148">
+        <path id="Trazado_104520" data-name="Trazado 104520" d="M7.124,63.785,0,46.312H50.547l7.124,17.473v2.324Z" fill="#b08763"/>
+        <path id="Trazado_104521" data-name="Trazado 104521" d="M57.671,63.785,72.684,46.312l30.51.019L88.2,63.785,57.671,66.109Z" fill="#a07651"/>
+        <path id="Trazado_104522" data-name="Trazado 104522" d="M7.124,63.785H60.535V119H7.124Z" fill="#8a6645"/>
+        <path id="Trazado_104523" data-name="Trazado 104523" d="M57.671,63.785H88.2V119H57.671Z" transform="translate(145.871 182.785) rotate(180)" fill="#73553a"/>
+      </g>
+    </g>
+  </g>
+</svg>
