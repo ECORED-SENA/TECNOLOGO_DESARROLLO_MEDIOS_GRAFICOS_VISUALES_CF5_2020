@@ -75,6 +75,8 @@
     p.mb-5 Es importante considerar que: 
     .row.justify-content-center.mb-5
       .col-lg-8
+          .titulo-sexto.color-acento-contenido
+            h5 Buen producto
           figure(data-aos="fade-up")
             img(src='@/assets/curso/img55.svg', alt='Texto que describa la imagen' )
     p.mb-5 Los prototipos se pueden clasificar en:
@@ -371,52 +373,54 @@
             li.d-flex.mb-3   
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Consumidor:
+                b Consumidor: 
                 b-none permite que el consumidor encuentre un producto con características físicas y microbiológicas de buena calidad, en el caso de los alimentos, con el peso y precio justo.
 
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Humano:
+                b Humano: 
                 b-none el empaque debe contar con medidas estándar de calificación que permitan garantizar la estabilidad organoléptica del producto, sea un alimento o un producto médico.
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Productor:
+                b Productor: 
                 b-none beneficia el trabajo e inversión que realiza el productor, para hacer que sus productos lleguen al mercado, sean apetecidos, valorados y vendidos. 
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Comercializador:
+                b Comercializador: 
                 b-none  por el cuidado que provee la mercancía, puede obtener un mejor margen de ganancia dentro de la cadena de venta, al tener productos de buena calidad en un excelente empaque.
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Distribuidor - transportador:
+                b Distribuidor - transportador: 
                 b-none podrán realizar el trabajo de una manera más rápida, ágil y segura, debido a que un empaque adecuado puede ahorrar tiempos de movilización y mano de obra.
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Medio ambiente:
+                b Medio ambiente: 
                 b-none se debe propender por garantizar que el empaque cause el menor impacto ambiental, tratando de que sus materiales sean biodegradables o reciclables.
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Asegurador:
+                b Asegurador: 
                 b-none es posible que los empaques con un diseño pensado en las necesidades de bodegaje, transporte y distribución, generan menos riesgos y accidentes dentro de los espacios de trabajo.
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Vendedor:
+                b Vendedor: 
                 b-none  en el área de estanterías de ventas, un empaque con un diseño funcional y en realizado con los materiales correctos, permitirá el ahorro de espacio, ser llamativo dentro de las demás marcas y así generar mejores ganancias al dueño. 
             li.d-flex.mb-3    
               i.fas.fa-square-full.me-2
               p.mb-0
-                b Estado:
+                b Estado: 
                 b-none el estado se beneficia de todas las transacciones mercantiles y de venta que realicen los particulares ya que por ellas cobra impuestos e IVA, entre otros.
-    p.mb-5 Principales materiales para envases, empaques y embalajes:
+    .titulo-sexto.color-acento-contenido
+          h5 Principales materiales para envases, empaques y embalajes:
     .tabla-a.color-acento-contenido.mb-5 
       table
+        caption Nota: Tabla adaptada de Universidad Militar Nueva Granada (s.f.).
         thead
           tr
             th Material
@@ -535,31 +539,32 @@
         p También se conoce como cartón cromo estucado, se fabrica a base de varias capas de fibras vírgenes cortas, gruesas y rígidas Tiene máximo tres capas de estucado en el anverso y en algunos casos también está estucado en el reverso. Se utiliza en empaques en que los que la rigidez en el empaque o envase son muy importantes. Sus aplicaciones gráficas pueden ser postales y tarjetas o sobres para diferentes ocasiones, así como en empaques de productos de belleza, productos farmacéuticos, cigarrillos, alimentos y envases sofisticados para dulces, confites y bebidas.
     p.mb-5 Se listan a continuación otros materiales diferentes al papel:
     .row
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img102.svg' alt='AvatarTop')
-          .tarjeta.color_botones--claro
+          .tarjeta.color_botones--claro.d-flex.align-items-center
             .p-4
               h2 Metal
               p Se emplea como material rígido, especialmente para contener tanto elementos sólidos como líquidos, ya que permiten un sellamiento total. Estos envases por lo general están hechos en aluminio y hojalata. Por sus características físicas, este tipo de empaques ofrecen una mayor durabilidad y capacidad de conservación. Entre los productos que se pueden encontrar con este tipo de empaques se encuentran, las gaseosas, aceites, pinturas, dulces, entre muchos otros. 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img103.svg' alt='AvatarTop')
-          .tarjeta.color_botones--claro
+          .tarjeta.color_botones--claro.d-flex.align-items-center
             .p-4
               h2 Vidrio
               p El vidrio es utilizado por sus características específicas, ya que es una opción reutilizable y muy higiénica la cual permite conservar las características organolépticas de vinos, medicamentos entre otros.  
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img104.svg' alt='AvatarTop')
-          .tarjeta.color_botones--claro
+          .tarjeta.color_botones--claro.d-flex.align-items-center
             .p-4
               h2 Textil
               p Este tipo de materia prima es utilizada principalmente en bolsas promocionales y de almacenes de cadena. 
-      .col-lg-6          
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img105.svg' alt='AvatarTop')
-          .tarjeta.color_botones--claro
+          .tarjeta.color_botones--claro.d-flex.align-items-center
             .p-4
               h2 Madera
               p Utilizado principalmente en embalaje de productos, por su gran durabilidad, resistencia y protección. 
@@ -711,7 +716,9 @@
     p.mb-5 Son todos los pasos anteriores a la impresión, en los cuales se realizan las correcciones y cambios concernientes a un archivo original, para su correcta impresión. En preprensa se revisan, ajustan y aprueban, diferentes componentes como: composición, dimensiones del documento, textos, paginación, sangrado de las piezas a imprimir, modo de color CMYK, peso y calidad de las imágenes a utilizar, para así llegar al quemado de planchas, hoy en día se puede dividir la preprensa en convencional y digital.
       br
       br
-      |La preprensa hace parte del proceso gráfico, el cual se puede resumir en cuatro pasos principales:  
+      |La preprensa hace parte del proceso gráfico, el cual se puede resumir en cuatro pasos principales:
+    .titulo-sexto.color-acento-contenido
+          h5 Preprensa  
     .row
       .col-lg-6
         .row.mb-3
@@ -770,7 +777,7 @@
     p.mb-5 Conocer la naturaleza del color, su función, cualidades, características y usos es primordial en el proceso gráfico.
     .row.mb-5
       .col-lg-7
-        .cajon.color-acento-botones.px-5.py-4
+        .cajon.color-acento-botones.px-5.py-4.h-100
           p
             b Colores luz o mezcla aditiva (RGB): 
             b-none si se mezclan luces se trata de una mezcla aditiva y el resultado de la combinación total es la luz blanca. La luz “blanca” del sol o de una fuente de luz artificial se forma con la combinación de todos los colores del espectro, que se pueden descomponer en los tres colores “primarios aditivos” (RGB), es decir, rojo (red), verde (green) y azul (blue). en el proceso de producción gráfica.
@@ -779,7 +786,7 @@
           img(src='@/assets/curso/img121.jpg', alt='Texto que describa la imagen')
     .row.mb-5
       .col-lg-7
-        .cajon.color-acento-botones.px-5.py-4
+        .cajon.color-acento-botones.px-5.py-4.h-100
           p
             b Colores pigmento o mezcal sustractiva (CMYK): 
             b-none por otra parte, si se mezclan pigmentos (como pinturas y rotuladores), se trata de una mezcla sustractiva y el resultado de esta mezcla es la ausencia de luz, es decir, el negro. Los colores primarios de la mezcla sustractiva son el amarillo, magenta y cian (Ferrada, 2018).
@@ -789,7 +796,7 @@
     .row.mb-5
       .col-lg-7
         .cajon.color-acento-botones.px-5.py-4
-          p
+          p.mb-0
             b Separación de color:  
             b-none este método generalmente utilizado en serigrafía, usa la separación por puntos de color directo, distribuidos por color en 4 planchas. Hay que tener en cuenta que los códigos de color presentes en la pantalla, sean calibrados con los códigos de color de impresión.  
             br
@@ -825,7 +832,7 @@
           h3 Imagen = anchura en píxeles x altura en píxeles.
           figure(data-aos="fade-left").px-5.mx-5
             img(src='@/assets/curso/img125.svg', alt='Texto que describa la imagen')
-      .col-lg-6
+      .col-lg-6.h-100
         .tarjeta-avatar-b.mb-5
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
           .tarjeta.color_contenido--claro

@@ -10,97 +10,107 @@
       br
       br
       |Los tipos de formatos se estandarizan a partir de la norma ISO 216 y se dividen en series determinadas por letras, la más conocida es la serie A, que parte del formato A0 de medidas (841 x 1.189 mm), el cual se va dividiendo a la mitad, para formar los formatos A1, A2, A3, hasta el A10.
+    
     .row.justify-content-center.mb-5
       .col-lg-10
+        .titulo-sexto.color-acento-contenido
+          h5 Formatos de salida
         figure
-          img(src='@/assets/curso/img15.svg', alt='Texto que describa la imagen' )
+          img.mb-2(src='@/assets/curso/img15.svg', alt='Texto que describa la imagen' )
+          figcaption Nota: Adaptado de Pixartprinting (2019). https://www.pixartprinting.es/blog/formatos-papel/
     p.mb-5 A la serie A, se suman las series B y C, las llamadas “complementarias”, que también siguen una numeración. Dichas series complementarias, indican que una carta escrita en una hoja A4 puede introducirse en un sobre C4, mientras que el sobre C4 puede introducirse en un sobre B4. Esto es así porque la hoja C4 es ligeramente más ancha que una A4, y la B4 es ligeramente más ancha que la C4. 
 
       br
       br
       |A continuación, se describen las características de los formatos. 
-    .row
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
-            .p-4
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
+            .p-4.mb-0
               h2 Formato A0
-              p 
+              p.mb-0 
                 b Medidas 841 x 1.189 mm:  
                 b-none es el formato más grande de todos. Se puede usar para carteles, aunque los formatos más utilizados en este ámbito son 700 × 1000 mm y 1000 × 1400 mm.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A2
-              p 
+              p.mb-0 
                 b Medidas: 420 × 594 mm: 
                 b-none los usos del formato A2 pueden ser varios: diseño, impresión fotográfica, carteles, diagramas, calendarios de pared grandes.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A3
-              p 
+              p.mb-0 
                 b Medidas: 297 × 420 mm: 
                 b-none junto con el A4 es uno de los cortes más comunes. Precisamente por ello, la mayoría de las impresoras utilizadas en las oficinas están diseñadas para hojas A3 y A4. Se utiliza para imprimir dibujos, gráficos, pósteres, fotografías, revistas, partituras, carteles y diplomas.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A4
-              p 
+              p.mb-0 
                 b Medidas: 210 × 297 mm: 
                 b-none el A4 es el folio clásico para impresora, el usado para los documentos estándar, como cartas o formularios. Es el formato de los cuadernos que se utilizan en los colegios, de los libros infantiles y de las enciclopedias (que requieren más espacio para las ilustraciones), de las revistas y de los folletos.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A5
-              p 
+              p.mb-0 
                 b Medidas: 148 × 210 mm: 
                 b-none el A5 es el formato perfecto para los blocs de notas, el A5 también puede ir bien para la impresión de libros, además de revistas y folletos.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A6
-              p 
+              p.mb-0 
                 b Medidas: 105 × 148 mm:  
                 b-none postales y tarjetas tienen el formato de papel A6. Además, el tamaño de la hoja A6 también es adecuado para imprimir folletos, agendas de bolso y libros de bolsillo.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A7
-              p 
+              p.mb-0 
                 b Medidas: 74 × 105 mm: 
                 b-none dado su tamaño más pequeño, el A7 se puede utilizar para crear, por ejemplo, un calendario de bolsillo con los horarios de los cursos de un centro deportivo o de un colegio, así como folletos o tarjetas de felicitación.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.a
             .p-4
               h2 Formato A8
               p 
                 b Medidas: 52 × 74 mm: 
                 b-none tarjetas de presentación normalmente tienen un formato similar, ligeramente más grande (85 × 55 mm). 
     Separador 
-    #t_2_11.titulo-segundo
+    #t_2_1.titulo-segundo
       h2 2.1 Formatos y usos
     p.mb-5 Existe una gran variedad de formatos de papel, los cuales tienen determinados usos, según el tipo de pieza gráficas a producir y su tamaño específicamente.  
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
       div(titulo="Folletos plegados, díptico y tríptico").px-5
         p Existen varios tipos de formatos para folletos como el A3, por ejemplo, el cual mide 29.7 cm x 42 cm, y pueden ser modificados y doblados de maneras diferentes, como se ve en la gráfica:
+        .titulo-sexto.color-acento-contenido
+          h5 Formatos de uso
         figure
-          img(src='@/assets/curso/img17.jpg', alt='Texto que describa la imagen')
+          img.mb-2(src='@/assets/curso/img17.jpg', alt='Texto que describa la imagen')
+          figcaption Nota: Adaptado de Pixelcook (2017). https://pixelcook.es/2017/04/03/formatos-entrega-logotipos/
       div(titulo="Publicidad gráfica, posters y anuncios").px-5
         p Los formatos A y B, son utilizados en piezas generalmente planas. 
           br
@@ -113,11 +123,17 @@
                 .indicador--click(v-if="mostrarIndicador")
       div(titulo="Papelería corporativa").px-5
         p Son los elementos gráficos empleados por una empresa para comunicar su identidad y también como estrategia de marketing. Se emplean generalmente pequeños formatos para papelería comercial, como los siguientes: 
+        .titulo-sexto.color-acento-contenido
+          h5 Papelería corporativa
         figure
-            img(src='@/assets/curso/img19.jpg', alt='Texto que describa la imagen')
+            img.mb-3(src='@/assets/curso/img19.svg', alt='Texto que describa la imagen')
+            figcaption Nota: Adaptado de Pixelcook (2017).
     ModalA(:abrir-modal.sync="modal1")
+      .titulo-sexto.color-acento-contenido
+        h5 Publicidad gráfica, posters y anuncios
       figure
-          img(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
+          img.mb-2(src='@/assets/curso/img18.jpg', alt='Texto que describa la imagen')
+          figcaption Nota: Adaptación de Diferenciador (s.f.).
     Separador
     #t_2_2.titulo-segundo
       h2 2.2 Medios impresos
@@ -314,7 +330,7 @@
     .row.justify-content-between.mb-5
       .col-lg-6
         h4 Revista
-        p Es un tipo de publicación periódica, que trata uno o varios temas y que se caracteriza por tener gran variedad de textos e imágenes. Contienen artículos sobre diversos tópicos como, horóscopos, reseñas, entrevistas, infografías, ilustraciones y muchas fotografías. Las revistas pueden tratar temas diversos como espectáculos, religión, cine, cocina, espectáculos, notas científicas, etc. A veces van dirigidas a un público en particular, como revistas científicas, de derecho, de finanzas, o para adolescentes, para mujeres o para hombres, etc. 
+        p Es un tipo de publicación periódica, que trata uno o varios temas y que se caracteriza por tener gran variedad de textos e imágenes. Contienen artículos sobre diversos tópicos como, horóscopos, reseñas, entrevistas, infografías, ilustraciones y muchas fotografías. Las revistas pueden tratar temas diversos como espectáculos, religión, cine, cocina, notas científicas, etc. A veces van dirigidas a un público en particular, como revistas científicas, de derecho, de finanzas, o para adolescentes, para mujeres o para hombres, etc. 
           br
           br
           |Se conocen también como magazine y se pueden publicar en forma semanal, mensual, bimensual, etc. Sus ediciones impresas son más cuidadas, usualmente se elaboran en papel de buena calidad, aunque actualmente existen revistas electrónicas, que cuentan con funciones interactivas y utilizan el internet para su difusión.
@@ -322,60 +338,63 @@
         figure
           img(src='@/assets/curso/img36.jpg', alt='Texto que describa la imagen')
     p.mb-5 Las principales partes de la revista son:
-    .row
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img37.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 La portada
               p Es la primera página de la revista, que usualmente contiene una excelente foto indicativa de alguno de los temas más importantes que contendrá la revista. 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img38.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Las páginas de cubierta
               p Aparecen en seguida de la portada, usualmente se elaboran con el mismo papel de la portada y generalmente contiene avisos publicitarios. La segunda página de cubierta es la página más cara en publicidad. La última página de portada es también muy cara desde el punto de vista publicitario.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img39.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Anuncios
               p La mayoría de las veces se relacionan con la temática que trata la revista, a veces constituyen hasta el 60 % del contenido. Como el lector mira primero las páginas impares, generalmente se publican allí. 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img40.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Carta del editor 
               p Es una carta realizada por el editor en jefe, que contiene una breve explicación o reflexión sobre los temas.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-3
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img41.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Artículos 
               p Es básicamente el cuerpo de la revista, algunos artículos son breves otros son extensos. Al organizar la revista se deben intercalar los artículos largos con los cortos, para hacer más amena la lectura.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img42.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Parte posterior 
               p Contiene artículos muy cortos, noticias, horóscopo, anuncios clasificados siendo de una estructura rígida y su diseño cambia muy poco. La última página, se reserva casi siempre para el columnista, una entrevista corta o un contenido relajante.
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+    .row.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img43.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 La tabla de contenido, índice o sumario
               p Le permite al lector observar la organización de los temas en la revista, en donde puede consultar el artículo relacionado con la fotografía de la portada. El diseño de esta tabla puede hacerse con o sin márgenes, pero es muy importante determinar la adecuada tipografía, así como la posible inclusión de fotografías o ilustraciones, ya que debe facilitar encontrar los títulos de los temas, así como la página donde se encuentran y a veces una breve descripción del tema. 
-      .col-lg-6
-        .tarjeta-avatar-b.mb-5
+      .col-lg-6.mb-3
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img44.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 El pie de imprenta o masthead
               p A veces se coloca en la parte delantera de la revista o en la posterior. Contiene la lista de todas las personas que intervienen en la revista, redacción, ventas, anuncios, editores, etc. El logo de la revista se ubica preferencialmente en la parte superior de la revista.
@@ -457,7 +476,7 @@
           h3.titulo-segundo Medios impresos y digitales
           p.mb-4 Algunas diferencias entre los medios impresos y los medios digitales las puede observar a continuación:
           
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+          a.boton.color-acento-botones(:href="obtenerLink('/downloads/medios_impresos.pdf')" target="_blank" type="application/pdf")
             span Descargar
             i.fas.fa-file-download
     Separador 
@@ -553,18 +572,21 @@ export default {
         titulo: 'Impresión offset. ',
         texto:
           'Es un tipo de impresión donde se coloca una tinta sobre una plancha metálica, la cual se transfiere a un rodillo que la aplica sobre el papel. Es utilizada en impresiones que demandan muchos ejemplares. ',
+        leyendaImagen: 'Impresion offset a alta velocidad ',
         imagen: require('@/assets/curso/img21.jpg'),
       },
       {
         titulo: 'Impresión digital. ',
         texto:
           'Se realiza de manera directa desde un archivo digital a diversos tipos de sustratos (papel, vinilo, tejidos, entre otros), no requiere tiempos de secado o enfriamiento del material; se utiliza por su gran calidad en proyectos con pocos ejemplares. ',
+        leyendaImagen: 'Cartucho de impresión difital de chorro de tinta',
         imagen: require('@/assets/curso/img22.jpg'),
       },
       {
         titulo: 'Flexografía',
         texto:
           'Este método de impresión se utiliza principalmente para la elaboración de etiquetas y empaques. Utiliza una plancha flexible en relieve, la cual transfiere la tinta al sustrato elegido, que puede ser plástico, cartón papel, entre otros. ',
+        leyendaImagen: 'Prensa flexográfica UV para impresión de etiquetas',
         imagen: require('@/assets/curso/img23.jpg'),
       },
     ],

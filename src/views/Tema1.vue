@@ -23,12 +23,12 @@
     .row.mb-5
       .col-lg-7
         p Para obtener información sobre cómo realizar un proyecto gráfico, se debe iniciar llevando a cabo una lluvia de ideas, la cual se puede reforzar a través de la consulta bibliográfica, revisión de información en la web, observación del tipo de piezas gráficas que se manejan en algunos sitios y lugares en la calle, también, a través del intercambio de ideas con el equipo de trabajo. El boceto es considerado como un modelo de representación o el primer dibujo del prototipo, en donde se proyectan diferentes ideas con un mismo fin, con el propósito de dar diferentes soluciones al diseño requerido. Esto da la posibilidad de conceptualizar y materializar las ideas; es utilizado como la base esencial de prototipos, croquis, planos, gráficos, maquetas, entre otros. 
-        br
-        br
-        |Así, el prototipo se puede definir como la versión real de una matriz, patrón o diseño de un producto, para hacer una demostración del elemento que se está elaborando, realizando pruebas de viabilidad, uso y pertinencia, por ejemplo, en el empaque de un producto. Siendo una propuesta inicial, el prototipo tiene en cuenta los elementos que funcionan y aquellos que presentan dificultad o inconveniencia, entonces en forma oportuna se realizan las correcciones, con el fin de reducir posibles pérdidas de insumos y dinero.
-        br
-        br
-        |En el desarrollo y proceso de diseño de un producto, se pueden utilizar diferentes métodos de dibujo, para lograr plasmar la idea gráficamente y que sea entendida por el público al cual va dirigido, entre estos se encuentran:
+          br
+          br
+          |Así, el prototipo se puede definir como la versión real de una matriz, patrón o diseño de un producto, para hacer una demostración del elemento que se está elaborando, realizando pruebas de viabilidad, uso y pertinencia, por ejemplo, en el empaque de un producto. Siendo una propuesta inicial, el prototipo tiene en cuenta los elementos que funcionan y aquellos que presentan dificultad o inconveniencia, entonces en forma oportuna se realizan las correcciones, con el fin de reducir posibles pérdidas de insumos y dinero.
+          br
+          br
+          |En el desarrollo y proceso de diseño de un producto, se pueden utilizar diferentes métodos de dibujo, para lograr plasmar la idea gráficamente y que sea entendida por el público al cual va dirigido, entre estos se encuentran:
       .col-lg-5
           img(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
     .tarjeta--container.row.mb-5
@@ -45,138 +45,7 @@
         .row.justify-content-center.mb-4
           .col-12
             figure
-              img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen')
-          
-        h2.text-center Planos 
-        p Son representaciones geográficas que indican o marcan ubicaciones, desde el plano de una ciudad hasta el desarrollo de un barrio. Es un concepto basado en el manejo de la geometría y su ejecución junto a la de mapas, siendo una de las finalidades de la cartografía. Un plano se define como un objeto que posee dos dimensiones y contiene infinitos puntos y rectas. No posee volumen, es bidimensional.
-
-      .col-md.tarjeta.color-acento-botones.p-4
-        .row.justify-content-center.mb-4
-          .col-12
-            figure
-              img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen')
-        h2.text-center Gráfica
-        p Son designaciones que representan la información de datos por lo general numéricos, mediante recursos gráficos como líneas, vectores, superficies o símbolos, para que se manifieste visualmente la relación matemática o correlación estadística que tienen entre sí. 
-    Separador 
-    #t_1_2.titulo-segundo
-      h2 1.2  Propuesta de diseño
-    p.mb-5 Es un documento que utilizan diseñadores independientes (freelance), agencias de diseño y publicidad, entre otros, mediante el cual acuerdan con sus clientes detalles sobre proyectos de diseño y publicidad.
-      br
-      br
-      |Una propuesta de diseño tiene que ser clara, profesional e iniciar con un concepto y un sentido creativo, ya que identificará al negocio que así lo demanda. Por otro lado, debe trabajar de la mano con el concepto de marca, filosofía, objetivos y sentido de pertenencia, aspectos relacionados con la identidad de la organización y que deben estar plasmados en el brief.
-      br
-      br
-      |A continuación, se indican los pasos a tener en cuenta para presentar una propuesta exitosa: 
-    PasosA.color-primario.mb-5(tipo="n")
-      .row
-        h3 Lorem ipsum dolor sit amet.
-        p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</template>
-
-<script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
-export default {
-  name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
-  data: () => ({
-    // variables de vue
-  }),
-}
-</script>
-
-<style lang="sass" scoped></style>
-<template lang="pug">
-.curso-main-container.pb-3
-  BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
-    //- El componente "Muestras" tiene las aplicaciones de todos los componentes de la base
-    //- se encuentra en src/components/Muestras.vue
-    //- Una vez el componente "Muestras" no se necesite 
-    //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
-    //- esto evitará que se compile en la carpeta final de distribución
-    //Muestras
-    .titulo-principal
-      .titulo-principal__numero
-        span 1
-      h1 Prototipado
-    p.mb-5 Es la representación de una idea de producto o servicio, como modelo de prueba para estudiar su viabilidad e implementación. Lo invito a revisar el siguiente video para conocer más sobre este tema:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
-    #t_1_1.titulo-segundo
-      h2 1.1  Del boceto al prototipo
-    .row.mb-5
-      .col-lg-7
-        p Para obtener información sobre cómo realizar un proyecto gráfico, se debe iniciar llevando a cabo una lluvia de ideas, la cual se puede reforzar a través de la consulta bibliográfica, revisión de información en la web, observación del tipo de piezas gráficas que se manejan en algunos sitios y lugares en la calle, también, a través del intercambio de ideas con el equipo de trabajo. El boceto es considerado como un modelo de representación o el primer dibujo del prototipo, en donde se proyectan diferentes ideas con un mismo fin, con el propósito de dar diferentes soluciones al diseño requerido. Esto da la posibilidad de conceptualizar y materializar las ideas; es utilizado como la base esencial de prototipos, croquis, planos, gráficos, maquetas, entre otros. 
-        br
-        br
-        |Así, el prototipo se puede definir como la versión real de una matriz, patrón o diseño de un producto, para hacer una demostración del elemento que se está elaborando, realizando pruebas de viabilidad, uso y pertinencia, por ejemplo, en el empaque de un producto. Siendo una propuesta inicial, el prototipo tiene en cuenta los elementos que funcionan y aquellos que presentan dificultad o inconveniencia, entonces en forma oportuna se realizan las correcciones, con el fin de reducir posibles pérdidas de insumos y dinero.
-        br
-        br
-        |En el desarrollo y proceso de diseño de un producto, se pueden utilizar diferentes métodos de dibujo, para lograr plasmar la idea gráficamente y que sea entendida por el público al cual va dirigido, entre estos se encuentran:
-      .col-lg-5
-          img(src='@/assets/curso/img2.svg', alt='Texto que describa la imagen')
-    .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-4
-        .row.justify-content-center.mb-4
-          .col-12
-            figure
-              img(src='@/assets/curso/img3.svg', alt='Texto que describa la imagen')
-          
-        h2.text-center El croquis
-        p Es un dibujo realizado a mano alzada, que contiene información detallada sobre las dimensiones (medidas) y la forma de un objeto, para que pueda ser fabricado bajo esas indicaciones. Es un muestreo gráfico, con más detalles que en el boceto y su desarrollo necesita exactitud y claridad. A manera de ejemplo se presenta el siguiente croquis:
-
-      .col-md.tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-4
-          .col-12
-            figure
-              img(src='@/assets/curso/img5.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/img4.jpg', alt='Texto que describa la imagen')
           
         h2.text-center Planos 
         p Son representaciones geográficas que indican o marcan ubicaciones, desde el plano de una ciudad hasta el desarrollo de un barrio. Es un concepto basado en el manejo de la geometría y su ejecución junto a la de mapas, siendo una de las finalidades de la cartografía. Un plano se define como un objeto que posee dos dimensiones y contiene infinitos puntos y rectas. No posee volumen, es bidimensional.
@@ -377,6 +246,21 @@ export default {
 
 
 </template>
+
+<script>
+import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
+export default {
+  name: 'Tema1',
+  components: {
+    Muestras, // borrar una vez el componente "Muestras" no se necesite
+  },
+  data: () => ({
+    // variables de vue
+  }),
+}
+</script>
+
+<style lang="sass" scoped></style>
 
 <script>
 import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite

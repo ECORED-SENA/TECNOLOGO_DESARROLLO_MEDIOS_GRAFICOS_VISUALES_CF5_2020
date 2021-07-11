@@ -255,7 +255,7 @@ export default {
       texto:
         'Godínez, J. (27 de octubre de 2020). Preprensa digital (introducción). [video]. YouTube. ',
       tipo: 'Video',
-      descarga: 'https://www.youtube.com/watch?v=NH7RS9YXBNw ',
+      link: 'https://www.youtube.com/watch?v=NH7RS9YXBNw',
     },
   ],
   creditos: {
@@ -329,7 +329,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yenny Patricia Ulloa Villamizar',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
