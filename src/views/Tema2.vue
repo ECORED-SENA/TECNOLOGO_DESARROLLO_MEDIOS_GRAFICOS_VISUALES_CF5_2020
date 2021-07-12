@@ -81,7 +81,7 @@
                 b Medidas: 105 × 148 mm:  
                 b-none postales y tarjetas tienen el formato de papel A6. Además, el tamaño de la hoja A6 también es adecuado para imprimir folletos, agendas de bolso y libros de bolsillo.
     .row.mb-3
-      .col-lg-6.mb-3
+      .col-lg-6
         .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
           .tarjeta.color_contenido--claro.d-flex.align-items-center
@@ -93,7 +93,7 @@
       .col-lg-6
         .tarjeta-avatar-b.h-100
           img(src='@/assets/curso/img16.svg' alt='AvatarTop')
-          .tarjeta.color_contenido--claro.d-flex.a
+          .tarjeta.color_contenido--claro.d-flex.align-items-center
             .p-4
               h2 Formato A8
               p 
