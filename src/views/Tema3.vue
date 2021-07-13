@@ -497,17 +497,17 @@
             td Visibilidad del contenido, reciclable de fácil eliminación.
             td Frágil a golpes, pesado y voluminosos.
     ModalA(:abrir-modal.sync="modal1")
-      img(src='@/assets/curso/img96.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img96.png' alt='AvatarTop')
     ModalA(:abrir-modal.sync="modal2")
-      img(src='@/assets/curso/img97.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img97.png' alt='AvatarTop')
     ModalA(:abrir-modal.sync="modal3")
-      img(src='@/assets/curso/img98.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img98.png' alt='AvatarTop')
     ModalA(:abrir-modal.sync="modal4")
-      img(src='@/assets/curso/img99.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img101.png' alt='AvatarTop')
     ModalA(:abrir-modal.sync="modal5")
-      img(src='@/assets/curso/img100.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img100.png' alt='AvatarTop')
     ModalA(:abrir-modal.sync="modal6")
-      img(src='@/assets/curso/img101.jpg' alt='AvatarTop')
+      img(src='@/assets/curso/img99.png' alt='AvatarTop')
     Separador
     #t_3_3.titulo-segundo
       h2 3.3 Materiales
