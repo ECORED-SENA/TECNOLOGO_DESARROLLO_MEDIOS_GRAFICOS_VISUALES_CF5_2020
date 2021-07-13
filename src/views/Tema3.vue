@@ -928,7 +928,13 @@
             p.mb-0
               b Pinza:
               b-none Espacio de reserva entre el borde de la plancha y el inicio de la superficie impresora, esta pinza permite enganchar la plancha. 
-    p.mb-5 Se deben tener en cuenta los siguientes pasos para el proceso de preprensa, estas acciones son generales y aplica para todo archivo digital que se envíe a preprensa en cualquier programa:
+    .row.mb-5.d-flex.align-items-center
+      .col-lg-6
+        .cuadro-azul-claro.p-5
+          p.mb-0 Se deben tener en cuenta los siguientes pasos para el proceso de preprensa, estas acciones son generales y aplica para todo archivo digital que se envíe a preprensa en cualquier programa:
+      .col-lg-6
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/img126.png', alt='Texto que describa la imagen')
     ol.lista-ol--cuadro.mb-5
       li 
         .lista-ol--cuadro__vineta

@@ -171,7 +171,9 @@
 
       .col-lg-5
         figure
-          img(src='@/assets/curso/img24.jpg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/img24.png', alt='Texto que describa la imagen')
+          figcaption Nota: Tomada de: https://ast.wikipedia.org/wiki/Johannes_Gutenberg
+
     .cajon.color-acento-botones.px-5.py-4.mb-5
       .row
         .col-lg-1
