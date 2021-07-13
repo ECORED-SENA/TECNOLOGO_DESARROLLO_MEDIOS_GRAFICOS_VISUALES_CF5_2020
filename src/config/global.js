@@ -323,7 +323,14 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: [
+          'Zuleidy María Ruiz Torres',
+          'Wilson Andrés Arenales Cáceres',
+          'Gilberto Junior Rodriguez Rodriguez',
+          'Víctor Raúl Cárdenas Cáceres',
+          'Oleg Litvin',
+          'Arnulfo Beltrán Mojica',
+        ],
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

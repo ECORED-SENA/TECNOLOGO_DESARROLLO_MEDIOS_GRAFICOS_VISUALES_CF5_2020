@@ -8,7 +8,6 @@
     //- Una vez el componente "Muestras" no se necesite 
     //- Se debe borrar el "import Muestras from '../components/Muestras'" y en "components" en "<script"
     //- esto evitará que se compile en la carpeta final de distribución
-    //Muestras
     .titulo-principal
       .titulo-principal__numero
         span 1
@@ -16,7 +15,7 @@
     p.mb-5 Es la representación de una idea de producto o servicio, como modelo de prueba para estudiar su viabilidad e implementación. Lo invito a revisar el siguiente video para conocer más sobre este tema:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9xmGqg6EyIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     #t_1_1.titulo-segundo
       h2 1.1  Del boceto al prototipo
@@ -263,12 +262,9 @@ export default {
 <style lang="sass" scoped></style>
 
 <script>
-import Muestras from '../components/Muestras' // borrar una vez el componente "Muestras" no se necesite
 export default {
   name: 'Tema1',
-  components: {
-    Muestras, // borrar una vez el componente "Muestras" no se necesite
-  },
+  components: {},
   data: () => ({
     // variables de vue
   }),
