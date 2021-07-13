@@ -328,7 +328,6 @@ export default {
           'Wilson Andrés Arenales Cáceres',
           'Gilberto Junior Rodriguez Rodriguez',
           'Víctor Raúl Cárdenas Cáceres',
-          'Oleg Litvin',
           'Arnulfo Beltrán Mojica',
         ],
         cargo: 'Producción audiovisual',
